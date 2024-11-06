@@ -4,7 +4,9 @@ export interface Person {
 }
 
 export interface ChangeFirstNamePayload {
-  newFirstName: string;
+  payload: {
+    newFirstName: string;
+  };
 }
 
 export interface PersonSelector {

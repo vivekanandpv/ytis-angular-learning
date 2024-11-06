@@ -1,5 +1,5 @@
 import { createReducer, on } from '@ngrx/store';
-import { Person } from '../models/user.model';
+import { Person } from '../../models/user.model';
 import { changeFirstNameActionCreator } from './user.actions';
 
 export const userReducer = createReducer<Person>(
